@@ -236,6 +236,8 @@ img {
   color: var(--white-text-color);
 }
 
+/* Модальное окно */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -266,7 +268,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   z-index: 999;
-  transition: transform 250ms var(--timing-funcion));
+  transition: transform 250ms var(--timing-funcion);
 }
 
 .backdrop.is-hidden .modal {
@@ -448,8 +450,7 @@ img {
   width: 100%;
   height: 100%;
   color: var(--secondary-gray-color);
-  transition: background-color 250ms var(--timing-funcion),
-    color 250ms var(--timing-funcion);
+  transition: background-color 250ms var(--timing-funcion), color 250ms var(--timing-funcion);
 }
 
 .social-link:hover,
@@ -642,8 +643,8 @@ img {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  transition: background-color 250ms var(--timing-funcion),
-    color 250ms var(--timing-funcion), box-shadow 250ms var(--timing-funcion);
+  transition: background-color 250ms var(--timing-funcion), color 250ms var(--timing-funcion),
+    box-shadow 250ms var(--timing-funcion);
 }
 
 .buttons-list .portfolio-button:hover,
