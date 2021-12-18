@@ -483,9 +483,6 @@ img {
   margin-right: 30px;
   width: 170px;
   height: 92px;
-  border: 1px solid var(--secondary-gray-color);
-  box-sizing: border-box;
-  border-radius: 4px;
 }
 
 .clients-list-item:last-child {
@@ -499,7 +496,10 @@ img {
   min-width: 170px;
   min-height: 92px;
   color: var(--secondary-gray-color);
-  transition: color 250ms var(--timing-funcion);
+  border: 1px solid var(--secondary-gray-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: color 250ms var(--timing-funcion), border 250ms var(--timing-funcion);
 }
 
 .clients-link:hover,
